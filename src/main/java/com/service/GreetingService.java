@@ -1,4 +1,4 @@
-package com.softech.didemo.service;
+package com.service;
 
 public interface GreetingService {
 

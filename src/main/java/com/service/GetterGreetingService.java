@@ -1,4 +1,4 @@
-package com.softech.didemo.service;
+package com.service;
 
 import org.springframework.stereotype.Service;
 

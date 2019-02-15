@@ -1,4 +1,4 @@
-package com.softech.didemo.service;
+package com.service;
 
 
 import org.springframework.context.annotation.Primary;
@@ -10,8 +10,14 @@ import org.springframework.stereotype.Service;
 @Profile({"en", "default"})
 public class PrimaryGreetingService implements GreetingService {
 
+    private GreetingRepository greetingRepository;
+
+    public PrimaryGreetingService(GreetingRepository greetingRepository) {
+        this.greetingRepository = greetingRepository;
+    }
+
     @Override
     public String sayGreeting() {
-        return "Hello - Primary Greeting Service";
+        return greetingRepository.getEnglishGreeting();
     }
 }
