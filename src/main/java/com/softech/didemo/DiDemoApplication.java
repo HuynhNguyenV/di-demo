@@ -10,7 +10,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.service", "com.softech.didemo"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.softech.didemo.controllers;
 
-import com.service.GreetingServiceImpl;
+import com.softech.didemo.service.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.service;
+package com.softech.didemo.service;
 
 public interface GreetingRepository {
 
