@@ -3,3 +3,10 @@ guru:
     username: nga hoang
     password: 12222
     dburl: htttt
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    username: nga hoang *** German
+
